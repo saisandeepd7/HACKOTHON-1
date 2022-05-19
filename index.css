@@ -1,0 +1,103 @@
+
+.container {
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+#breweriesList {
+  padding-inline-start: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 20px;
+  bottom: 40px;
+}
+
+.obj {
+  list-style-type: none;
+  background-color: #eaeaea;
+  border-radius: 3px;
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.address{
+  font-size:11px;
+  color:white;
+  background :#443225;
+  padding :4px 10px;
+  margin:0px 2px;
+  border-radius: 15px;
+}
+
+.card{
+width:200px;
+  border: solid;
+  background-color: white;
+  border-radius:4px;
+padding:2px;}
+
+.card-footer{
+  background-color:#443225;
+  text-align:center;
+  margin-bottom:0px;
+}
+
+
+.card-title{
+  text-align:center;
+  border-style: double;
+  color:#443225;
+  margin:3px 1px;
+  font-size:medium;
+
+
+}
+
+body{
+  background-color:lavender;
+}
+
+.type{
+text-align: center;
+font-size:15px;
+font-style: italic;
+color: rgb(51, 40, 3);
+}
+.link{
+  color:white;
+  font-size:10px;
+}
+
+.contact{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:small;
+  padding-top: 10px;
+}
+
+#searchBar {
+  width: 100%;
+  height: 32px;
+  border-radius: 3px;
+  border: 1px solid #eaeaea;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+#searchWrapper {
+  position: relative;
+}
+
+#searchWrapper::after {
+  content: '🔍';
+  position: absolute;
+  top: 7px;
+  right: 15px;
+}
+
+
+
+
